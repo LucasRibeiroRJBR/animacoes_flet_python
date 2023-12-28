@@ -82,6 +82,11 @@ def main(page:ft.Page):
              ft.Divider(),
              Painel(n='EASE IN CIRC ROTATION',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.ROTATION,ac=ft.AnimationCurve.EASE_IN_CIRC),
              Painel(n='EASE IN CIRC SCALE',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.SCALE,ac=ft.AnimationCurve.EASE_IN_CIRC),
-             Painel(n='EASE IN CIRC FADE',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.FADE,ac=ft.AnimationCurve.EASE_IN_CIRC))
+             Painel(n='EASE IN CIRC FADE',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.FADE,ac=ft.AnimationCurve.EASE_IN_CIRC),
+             ft.Divider(),
+             Painel(n='EASE IN CUBIC ROTATION',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.ROTATION,ac=ft.AnimationCurve.EASE_IN_CUBIC),
+             Painel(n='EASE IN CUBIC SCALE',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.SCALE,ac=ft.AnimationCurve.EASE_IN_CUBIC),
+             Painel(n='EASE IN CUBIC FADE',w=largura,h=altura,br=borda_redonda,trans=ft.AnimatedSwitcherTransition.FADE,ac=ft.AnimationCurve.EASE_IN_CUBIC))
+             
 
 ft.app(target=main)
